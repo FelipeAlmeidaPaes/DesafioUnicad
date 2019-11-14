@@ -6,7 +6,7 @@ import React from 'react'
         <div className='container'>
           <Link className='navbar-brand' to='/'>Home</Link>
           <br />
-          <Link className="teste" to="/teste">Teste</Link>
+          <Link className="teste" to="/create">Create</Link>
         </div>
       </nav>
     )

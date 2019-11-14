@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Header from './Header'
 import NewDelivery from './NewDelivery'
 import DeliveriesList from './DeliveriesList'
-import Teste from './Teste'
 
 class App extends Component {
 
@@ -16,7 +15,6 @@ class App extends Component {
                     <Header />
                     <Switch>
                         <Route path="/" exact component={DeliveriesList} />
-                        <Route path="/teste" component={Teste} />
                         <Route path="/create" component={NewDelivery} />
                     </Switch>
                 </div>
