@@ -2,14 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\delivery;
 use Illuminate\Http\Request;
 
 class DeliveryController extends Controller
 {
+
     public function index(){
         $deliveries = Delivery::orderBy('delivery_date')->get();
 
-        return $projects->toJson();
+        return $deliveries->toJson();
     }
 
     public function store(Request $request){
@@ -20,7 +22,7 @@ class DeliveryController extends Controller
         ]);
 
         $delivery = Delivery::create([
-            'name' => $validatedData['name'],
+            'client_name' => $validatedData['client_name'],
             'from' => $validatedData['from'],
             'destiny' => $validatedData['destiny'],
         ]);

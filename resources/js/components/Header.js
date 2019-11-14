@@ -5,6 +5,8 @@ import React from 'react'
       <nav className='navbar navbar-expand-md navbar-light navbar-laravel'>
         <div className='container'>
           <Link className='navbar-brand' to='/'>Home</Link>
+          <br />
+          <Link className="teste" to="/teste">Teste</Link>
         </div>
       </nav>
     )
