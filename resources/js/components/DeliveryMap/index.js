@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import Map from './Map'
+
 class DeliveryMap extends Component {
   constructor() {
     super()
@@ -25,9 +27,9 @@ class DeliveryMap extends Component {
     const { destiny } = deliveries
 
     return (
-      <>
+      <Map from={from} destiny={destiny}>
 
-      </>
+      </Map>
     )
   }
 }

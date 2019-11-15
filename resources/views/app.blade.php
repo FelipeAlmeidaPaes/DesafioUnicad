@@ -13,6 +13,10 @@
     <body>
         <div id="app"></div>
 
+
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs0GCav2bdNBf9PUycgqoZv7YbkiukODM&callback=initMap">
+        </script>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
     </html>

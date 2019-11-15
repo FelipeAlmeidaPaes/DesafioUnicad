@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
 
-    render () {
+    render() {
         return (
             <BrowserRouter>
                 <div>
