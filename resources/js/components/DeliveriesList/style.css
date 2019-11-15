@@ -1,0 +1,13 @@
+.root{
+  width: 60%;
+  overflow-x: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 40px;
+}
+
+.table{
+  min-width: 650px;
+}
+

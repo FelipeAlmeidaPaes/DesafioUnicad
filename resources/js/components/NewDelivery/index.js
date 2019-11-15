@@ -50,7 +50,7 @@ class NewDelivery extends Component {
         }
 
         axios.post('/api/deliveries', delivery).then(response => {
-            history.push('/')
+            history.push('/list')
         })
             .catch(error => {
                 this.setState({
