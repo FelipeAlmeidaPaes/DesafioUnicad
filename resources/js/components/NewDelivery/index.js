@@ -49,7 +49,7 @@ class NewDelivery extends Component {
             destiny: this.state.destiny
         }
 
-        axios.post('/api', delivery).then(response => {
+        axios.post('/api/deliveries', delivery).then(response => {
             history.push('/list')
         })
             .catch(error => {
